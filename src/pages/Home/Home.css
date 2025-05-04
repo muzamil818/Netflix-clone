@@ -1,26 +1,59 @@
 .hero {
-    position: relative;
-    z-index: 1;
-  }
-  
-  .banner-img {
-    width: 100%;
-    mask-image: linear-gradient(to right, transparent, black 75%);
-    -webkit-mask-image: linear-gradient(to right, transparent, black 75%);
-  }
-  .heroTitle{
-    position: absolute;
-    width: 100%;
-    bottom: 0;
+  position: relative;
+  z-index: 1;
+}
 
-  }
-  .heroImg{
-    width: 90%;
-    max-width: 420px;
-    padding-bottom: 30px;
-  }
-  .heroTitle p{
-   max-width:  700px;
-    font-size: 17px;
-    margin-bottom: 30[X];
-  }
+.banner-img {
+  width: 100%;
+  mask-image: linear-gradient(to right, transparent, black 75%);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 75%);
+}
+.heroTitle {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 32px 85px;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+.heroImg {
+  width: 90%;
+  max-width: 420px;
+  padding-bottom: 30px;
+}
+.heroTitle p {
+  max-width: 600px;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+.hero-btn {
+  display: flex;
+  gap: 10px;
+}
+.hero-btn .btn img {
+  width: 25px;
+}
+.hero-btn .btn {
+  border: 0;
+  outline: 0;
+  padding: 8px 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  background: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.hero-btn .dark-btn {
+  color: #FFF;
+  background-color: #6d6d6eb3;
+}
+
+.hero-btn .btn:hover{
+ background:#FFFFFFbf ;
+}
+.hero-btn .dark-btn:hover{
+  background-color: #6d6d6e66;
+}
