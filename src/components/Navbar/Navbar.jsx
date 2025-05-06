@@ -5,8 +5,9 @@ import search_icon from '../../assets/search_icon.svg'
 import bell_icon from '../../assets/bell_icon.svg'
 import profile from '../../assets/profile_img.png'
 import dropdown from '../../assets/caret_icon.svg'
+
 const Navbar = () => {
-  const [showSignOut, setShoSignOut] =useState(false);
+  const [showSignOut, setShoSignOut] = useState(false);
   return (
     <div className='navbar'>
       <div className='navbar-left'>
