@@ -1,6 +1,6 @@
 .login{
     height: 100vh;
-    background-image: linear-gradient(#0000007e, #0000007e),url(/public/background_banner.jpg);
+    background-image: linear-gradient(#0000007e, #0000007e),url(/background_banner.jpg);
     padding: 20px 8%;
 }
 .login-logo{
@@ -60,4 +60,15 @@
 .remember input{
  width: 15px ;
  margin-right: 10px;
+}
+.form-switch{
+    margin-top: 40px;
+    color: #737373;
+
+}
+.form-switch span{
+    font-weight:600 ;
+    margin-left: 6px;
+    color: #fff;
+    cursor: pointer;
 }
