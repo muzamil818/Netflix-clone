@@ -4,6 +4,10 @@
     font-family: sans-serif;
  
 }
+.card{
+    text-decoration: none;
+    color: white;
+}
 .title-card h2{
     margin-bottom: 15px;
 }
@@ -14,6 +18,8 @@
     overflow-x: scroll;
     /* scroll-behavior:smooth; */
     cursor: pointer;
+  
+
 }
 .card-list img{
     width: 240px;
