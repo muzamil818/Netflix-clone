@@ -18,6 +18,10 @@
 .navbar-left img{
     width: 90px;
 }
+.nav-dark{
+    background: rgba(0, 0, 0, .9);
+
+}
 .links{
     display: flex;
     text-decoration: none;
